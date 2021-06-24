@@ -1,0 +1,172 @@
+body {
+  font-family: "Cabin", sans-serif;
+}
+nav {
+  background-color: black;
+}
+.container {
+  max-width: 80vw;
+  margin: 0 auto; /*  center this div with margin left and right auto */
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  color: aliceblue;
+  /* position: fixed; */
+  align-items: center;
+}
+
+a {
+  color: aliceblue;
+  text-decoration: none;
+  padding: 5px;
+}
+a:hover {
+  color: #1ed760;
+}
+span {
+  pointer-events: none;
+}
+#section1 {
+  padding-top: 80px;
+  background-color: orangered;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+.text {
+  /* display: flex;
+  flex-basis: 50%; */
+  /* justify-content: space-between; */
+  border: 2px solid blue;
+  color: aliceblue;
+  position: relative;
+  width: 40vw;
+  height: 30vh;
+}
+.content {
+  display: flex;
+  flex-basis: 50%;
+  border: 2px solid green;
+  /* justify-content: space-between; */
+  margin-left: 20vw;
+  width: 100vw;
+  height: 50vh;
+}
+.container1 {
+  display: flex;
+  justify-content: space-between;
+}
+#section2 {
+  padding-top: 80px;
+  background-color: rgb(223, 16, 161);
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content3 {
+  display: flex;
+  flex-basis: 50%;
+  border: 2px solid green;
+  /* justify-content: space-between; */
+  margin-left: 20vw;
+  width: 100vw;
+  height: 50vh;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  position: relative;
+}
+.te2 {
+  /* display: flex;
+  flex-basis: 50%; */
+  /* justify-content: space-between; */
+  border: 2px solid blue;
+  color: aliceblue;
+  position: relative;
+  width: 20vw;
+  height: 50vh;
+}
+#first {
+  z-index: 100;
+  margin-left: 50px;
+  margin-top: 50px;
+  position: relative;
+}
+#second {
+  z-index: 50;
+  margin-left: 20px;
+  margin-top: 20px;
+  position: absolute;
+}
+#third {
+  z-index: 20;
+  top: 2;
+  left: 2;
+  position: absolute;
+}
+#section3 {
+  padding-top: 80px;
+  background-image: url(/images/LiE_circles.svg);
+  background-size: auto 100%;
+  color: #1ed760;
+  background-color: #2d46b9;
+  background-position: right center;
+  background-repeat: no-repeat;
+  min-height: 606px;
+}
+footer {
+  background-color: black;
+  min-height: 70vh;
+  padding-top: 80px;
+}
+.footer-right {
+  border: 2px solid palevioletred;
+  width: 10vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+}
+.containerfooter {
+  border: 2px solid yellowgreen;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+.row2 {
+  border: 2px solid gold;
+  display: flex;
+  /* justify-content: space-between; */
+  /* flex-direction: column; */
+  justify-content: flex-end;
+}
+#Company {
+  border: 2px solid blue;
+  width: 10vw;
+  height: 40vh;
+}
+#Communities {
+  border: 2px solid blue;
+  width: 10vw;
+  height: 40vh;
+}
+#Useful {
+  border: 2px solid blue;
+  width: 10vw;
+  height: 40vh;
+}
+#box4 {
+  border: 2px solid white;
+  display: flex;
+  flex-direction: row;
+  width: 60vw;
+  height: 50vh;
+  justify-content: space-around;
+}
+#box5 {
+  border: 2px solid gray;
+  display: flex;
+  flex-direction: row;
+  /* width: 60vw; */
+  height: 50vh;
+  justify-content: space-around;
+}
